@@ -449,7 +449,7 @@ main{
     flex-direction: column;
     justify-content: center;
     font-size: 2rem;
-    width: 80%;
+    width: 100%;
 }
 
 .text_experience_container h2{
@@ -532,7 +532,7 @@ main{
 
 .experience_item img:nth-child(1){
     border-radius: 20% 10% / 10% 20%;
-    width: auto;
+    width: 50%;
     height: 400px;
     margin-right: 1.5em;
     box-shadow: 2px 3px 20px #101010;
@@ -797,6 +797,7 @@ footer{
 
     .texts_skills_container{
         width: 100%;
+        
     }
 
     .texts_skills_container h2{
@@ -804,7 +805,9 @@ footer{
     }
 
     .skills_container_list{
-        gap: 0.5em;
+        gap: .5em;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .skills_item{
@@ -852,11 +855,6 @@ footer{
         font-size: 1.2rem;
     }
 
-    .academic_item:nth-child(2) img{
-        height: 50px;
-        transform: rotate(180deg);
-        margin: 2em 0;
-    } 
 
     .academic_item:nth-child(4) img{
         height: 50px;
@@ -867,7 +865,7 @@ footer{
     /* ------------ Professional Experience ------------ */
 
     .experience_container{
-        margin-top: 0;
+        margin-top: 5em;
     }
 
     .text_experience_container{
@@ -880,7 +878,7 @@ footer{
     }
 
     .experience_container_list{
-        margin: 0 auto;
+        margin: 20px auto;
         justify-content: center;
         align-items: center;
     }
@@ -1074,12 +1072,6 @@ footer{
         width: auto;
         font-size: 1.2rem;
     }
-
-    .academic_item:nth-child(2) img{
-        height: 50px;
-        transform: rotate(180deg);
-        margin: 2em 0;
-    } 
 
     .academic_item:nth-child(4) img{
         height: 50px;
